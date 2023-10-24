@@ -5,12 +5,12 @@ import { AiOutlineMenu } from "react-icons/ai";
 import BurgerMenu from "./BurgerMenu";
 const Navbar = () => {
   return (
-    <nav style={{ background: "transparent" }} className="p-4 ">
+    <nav style={{ background: "transparent" }} className="sticky p-4 ">
       <div className="flex gap-10 justify-between items-center">
         <div>
           <Link className="flex gap-2 items-center" href={"/"}>
-            <Image src="/airbnb.png" alt="Logo" width={35} height={35} />
-            AirBnB
+            <Image src="/img.png" alt="Logo" width={35} height={35} />
+            klik
           </Link>
         </div>
         <div className="hidden sm:flex">
@@ -20,13 +20,13 @@ const Navbar = () => {
         <div>
           <ul className="hidden sm:flex flex-row gap-12">
             <Link href={"/"}>
-              <li className="hover:text-red-500 duration-500">Home</li>
+              <li className="hover:text-green-500 duration-500">Home</li>
             </Link>
             <Link href={"/"}>
-              <li className="hover:text-red-500 duration-500">About</li>
+              <li className="hover:text-green-500 duration-500">About</li>
             </Link>
             <Link href={"/"}>
-              <li className="hover:text-red-500 duration-500">Contact</li>
+              <li className="hover:text-green-500 duration-500">Contact</li>
             </Link>
           </ul>
         </div>

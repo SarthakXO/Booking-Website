@@ -14,7 +14,7 @@ const SearchComponent = () => {
       <BsSearch onClick={handleSearch} />
       {searchbar ? (
         <input
-          className="bg-black  ease-in  text-red-500 duration-500 outline-none"
+          className="bg-black  ease-in  text-green-500 duration-500 outline-none"
           placeholder="Search for hotels"
         />
       ) : (

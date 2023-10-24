@@ -5,8 +5,8 @@ import Navbar from "./Components/Navbar/Navbar";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AirBnB",
-  description: "Book your hotels, guestrooms, dorms, and much much more here",
+  title: "klik",
+  description: "The best collection of pictures on the internet",
 };
 
 export default function RootLayout({ children }) {
